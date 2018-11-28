@@ -13,6 +13,7 @@
 .team-page-header {
     display: flex;
     justify-content: flex-start;
+    padding: 0 15px;
 }
 
 .team-page-profile-pic {
@@ -35,7 +36,8 @@
     min-height: 100vh;
 }
 
-.lb-body-info, .lb-body-feed {
+.lb-body-info,
+.lb-body-feed {
     padding: 15px 0;
 }
 
@@ -57,7 +59,8 @@
     width: 90%;
 }
 
-.lb-body-feed {}
+.lb-body-feed {
+}
 
 .feed-photo {
     margin-top: 10px;
@@ -87,5 +90,8 @@
 @media (min-width: 768px) {
     .lb-body-info {
         padding-right: 10px;
+    }
+    .team-page-header {
+        padding-left: 0;
     }
 }
