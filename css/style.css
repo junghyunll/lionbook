@@ -1,0 +1,91 @@
+/* common */
+
+.hover {
+    cursor: pointer;
+}
+
+.lb-header {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background-color: black;
+}
+
+.team-page-header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.team-page-profile-pic {
+    height: 150px;
+}
+
+.team-page-name-container {
+    margin-left: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.team-page-name-container h2 {
+    margin: 0;
+}
+
+.lb-container {
+    background-color: #f2f2f2;
+    min-height: 100vh;
+}
+
+.lb-body-info, .lb-body-feed {
+    padding: 15px 0;
+}
+
+.lb-body-info .team-info-card {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.lb-body-info .detail-btn {
+    padding: 0;
+}
+
+.contact-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.lb-body-info .contact-btn {
+    width: 90%;
+}
+
+.lb-body-feed {}
+
+.feed-photo {
+    margin-top: 10px;
+}
+
+.feed-photo-100 {
+    width: 100%;
+}
+
+.team-feed-card:not(:first-child) {
+    margin-top: 10px;
+}
+
+.feed-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.team-name-container {
+    padding: 0 10px;
+}
+
+.team-profile-pic {
+    width: 30px;
+}
+
+@media (min-width: 768px) {
+    .lb-body-info {
+        padding-right: 10px;
+    }
+}
