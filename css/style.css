@@ -1,4 +1,7 @@
 /* common */
+.thumbnail-img {
+  visibility: hidden;
+}
 
 .hover {
   cursor: pointer;
