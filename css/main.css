@@ -7,6 +7,15 @@
   border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
 
+.lion-cover {
+  height: 420px;
+  background-color: #303030;
+  background-image: url("../imgs/lionbook/lions.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .team-list-intro {
   margin: 1rem 0;
 }
